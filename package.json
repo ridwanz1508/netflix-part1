@@ -1,6 +1,7 @@
 {
   "name": "netflix",
   "version": "0.1.0",
+  "homepage": "https://ridwanz1508.github.io/netflix-part1",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
@@ -19,7 +20,9 @@
     "react-scroll": "^1.9.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
+  "scripts": { 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
