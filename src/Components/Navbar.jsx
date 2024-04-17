@@ -5,8 +5,8 @@ import Logo from "../Images/logo/logo-netflix.png";
 function Navbar() {
     const [selectedLanguage, setSelectedLanguage] = useState("English");
 
-    const handleChangeLanguage = (event) => {
-        setSelectedLanguage(event.target.value);
+    const handleChangeLanguage = (e) => {
+        setSelectedLanguage(e.target.value);
     };
 
     return (
