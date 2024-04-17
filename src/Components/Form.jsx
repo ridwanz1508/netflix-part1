@@ -17,6 +17,7 @@ function Form() {
     const handleInputBlur = () => {
       setIsInputClicked(false);
     };
+    
     return (
         <div className="faq">
             <h2>Frequently Asked Questions</h2>
